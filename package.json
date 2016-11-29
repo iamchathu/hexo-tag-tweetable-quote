@@ -1,0 +1,30 @@
+{
+  "name": "hexo-tag-tweetable-quote",
+  "version": "0.0.1",
+  "description": "hexo tag plugin to add tweetable qoutes to posts and pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamchathu/hexo-tag-tweetable-quote.git"
+  },
+  "keywords": [
+    "hexo",
+    "social",
+    "tag",
+    "plugin",
+    "tweet",
+    "tweetable",
+    "quote",
+    "tweetable",
+    "quotes"
+  ],
+  "author": "Chathu Vishwajith (iam@chathu.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamchathu/hexo-tag-tweetable-quote/issues"
+  },
+  "homepage": "https://github.com/iamchathu/hexo-tag-tweetable-quote#readme"
+}
