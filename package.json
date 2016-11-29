@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/iamchathu/hexo-tag-tweetable-quote/issues"
   },
-  "homepage": "https://github.com/iamchathu/hexo-tag-tweetable-quote#readme"
+  "homepage": "https://github.com/iamchathu/hexo-tag-tweetable-quote#readme",
+  "dependencies": {
+    "nunjucks": "^3.0.0"
+  }
 }
