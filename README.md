@@ -1,4 +1,4 @@
-# hexo-tag-twittable-quote
+# hexo-tag-tweetable-quote
 Click to Tweet / Tweetable quotes for Hexo
 
 # About
