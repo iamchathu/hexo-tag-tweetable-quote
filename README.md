@@ -24,7 +24,7 @@ The full tag format is as follows:
 ```
 
 
-# Example in the Wild (Shameless promotion)
+# Example in the Wild
 I normally add Tweetable quote to my blog posts.
 
 You can check one of them at [Chathu's Visionaries](http://chathu.me/about/)
