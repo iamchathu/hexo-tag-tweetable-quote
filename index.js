@@ -28,12 +28,12 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 
 	let quote = args[0];
 	let author = args[1];
-	const url = 'https://twitter.com/intent/tweet?'+querystring.stringify({"text":quote+" - "+author,"via":"iamchathu"});
+	const tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({"text":quote+" - "+author,"via":"iamchathu","url":url});
 
 	const data = {
 		"quote": quote,
 		"author": author,
-		"url":url,
+		"tweetURL":tweetURL,
 		"quote_font_color":hexo.config.tweetableQuote.quote_font_color,
 		"quote_font_size":hexo.config.tweetableQuote.quote_font_size,
 		"link_font_size":hexo.config.tweetableQuote.link_font_size,
