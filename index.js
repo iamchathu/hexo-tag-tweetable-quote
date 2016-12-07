@@ -13,7 +13,9 @@ nunjucks.configure(__dirname, {watch: false});
 hexo.extend.tag.register('tweetableQuote', function(args) {
 
 	let quote = arg[0];
+	console.log(quote);
 	let author = arg[1];
+	console.log(author);
 	const url = 'https://twitter.com/intent/tweet?text='+querystring.stringify(quote+"-"+author);
 
 	const data = {"quote": quote, "author": author,"url":url};
@@ -21,6 +23,7 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 	return new Promise(function (resolve, reject) {
     	nunjucks.render('tweetable-quote.njk', data, function (err, res) {
       	if (err) {
+      		console.log(err);
        		return reject(err);
       	}
       		resolve(res);
