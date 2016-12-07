@@ -12,7 +12,7 @@ nunjucks.configure(__dirname, {watch: false});
 
 hexo.extend.tag.register('tweetableQuote', function(args) {
 
-	let qoute = arg[0];
+	let quote = arg[0];
 	let author = arg[1];
 	const url = 'https://twitter.com/intent/tweet?text='+querystring.stringify(quote+"-"+author);
 
