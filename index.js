@@ -8,7 +8,7 @@ const path = require('path');
 const nunjucks = require('nunjucks');
 const querystring = require('querystring');
 
-nunjucks.configure(__dirname, {watch: false});
+//nunjucks.configure(__dirname, {watch: false});
 
 hexo.extend.tag.register('tweetable-tag', function(args) {
 
