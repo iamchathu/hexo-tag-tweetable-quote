@@ -4,7 +4,27 @@
  * @author Chathu Vishwajith
  * @license MIT
  */
+const path = require('path');
+const nunjucks = require('nunjucks');
+const querystring = require('querystring');
+
+nunjucks.configure(__dirname, {watch: false});
+
 hexo.extend.tag.register('tweetable-tag', function(args) {
 
-  // TODO: Implementation 
-});
+	let qoute = arg[0];
+	let author = arg[1];
+	const url = 'https://twitter.com/intent/tweet?text='+querystring.stringify(quote+"-"+author);
+
+	const data = {quote: quote, author: author,url:url};
+
+	return new Promise(function (resolve, reject) {
+    	nunjucks.render('tweetable-quote.njk', data, function (err, res) {
+      	if (err) {
+       		return reject(err);
+      	}
+      		resolve(res);
+    	});
+  	});
+  
+},{async: true});
