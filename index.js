@@ -10,7 +10,7 @@ const querystring = require('querystring');
 
 nunjucks.configure(__dirname, {watch: false});
 
-hexo.extend.tag.register('tweetable-quote', function(args) {
+hexo.extend.tag.register('tweetableQuote', function(args) {
 
 	let qoute = arg[0];
 	let author = arg[1];

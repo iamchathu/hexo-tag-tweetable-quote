@@ -20,7 +20,7 @@ In your Hexo project root.
 The full tag format is as follows:
 
 ```
-{% tweetable-quote 'quote' 'author' %}
+{% tweetableQuote 'quote' 'author' %}
 ```
 
 
