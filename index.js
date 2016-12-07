@@ -14,7 +14,7 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 
 	let quote = args[0];
 	let author = args[1];
-	const url = 'https://twitter.com/intent/tweet?text='+querystring.escape(quote+"-"+author);
+	const url = 'https://twitter.com/intent/tweet?text='+querystring.escape(quote+"\n-"+author);
 
 	const data = {"quote": quote, "author": author,"url":url};
 
