@@ -29,3 +29,8 @@ I normally add Tweetable quote to my blog posts.
 
 You can check one of them at [Chathu's Visionaries](http://chathu.me/about/)
 
+## Tested themes
+
+* [landscape](https://github.com/hexojs/hexo-theme-landscape)
+
+* [icarus](https://github.com/ppoffice/hexo-theme-icarus)
