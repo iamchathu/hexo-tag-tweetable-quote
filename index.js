@@ -28,7 +28,7 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 
 	let quote = args[0];
 	let author = args[1];
-	const tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({
+	let tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({
 		"text":quote+" - "+author,
 		"via":"iamchathu",
 		"related" : "iamchathu"
