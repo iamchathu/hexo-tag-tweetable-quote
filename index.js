@@ -24,21 +24,16 @@ hexo.config.tweetableQuote = assign({
 
 nunjucks.configure(__dirname, {watch: false});
 
-hexo.extend.helper.register('tweetableQuoteURL', function( quote,author,url ){
-  const tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({"text":quote+" - "+author,"via":"iamchathu","url":url});
-  return tweetURL;
-});
-
 hexo.extend.tag.register('tweetableQuote', function(args) {
 
 	let quote = args[0];
 	let author = args[1];
-	// const tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({"text":quote+" - "+author,"via":"iamchathu","url":"{{% url %}}"});
+	const tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({"text":quote+" - "+author,"via":"iamchathu","url":"{{% url %}}"});
 
 	const data = {
 		"quote": quote,
 		"author": author,
-		// "tweetURL":tweetURL,
+		"tweetURL":tweetURL,
 		"quote_font_color":hexo.config.tweetableQuote.quote_font_color,
 		"quote_font_size":hexo.config.tweetableQuote.quote_font_size,
 		"link_font_size":hexo.config.tweetableQuote.link_font_size,
