@@ -6,7 +6,7 @@ Click to Tweet / Tweetable quotes for [Hexo](https://hexo.io)
 
 This is a [Hexo](https://hexo.io) tag plugin for including a tweetable quote into your pages/posts. Examples of what they can look like are below:
 
-
+Inspired by [RisingStack Blog](https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/).
 
 # Installation
 
