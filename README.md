@@ -4,7 +4,7 @@ Click to Tweet / Tweetable quotes for [Hexo](https://hexo.io)
 
 # About
 
-This is a [Hexo](https://hexo.io) tag plugin for including a tweetable quote into your pages/posts. Examples of what they can look like are below:
+This is a [Hexo](https://hexo.io) tag plugin for including a tweetable quote into your pages/posts. Example of what they can look like is attached below:
 
 ![](./screens/preview.png)
 
