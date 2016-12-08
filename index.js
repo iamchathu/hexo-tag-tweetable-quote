@@ -6,7 +6,7 @@
  */
 
  // Strict mode.
-'use strict';
+ 'use strict';
 
 // Package modules.
 const assign = require('object-assign');
@@ -16,10 +16,10 @@ const querystring = require('querystring');
 
 // Configuration
 hexo.config.tweetableQuote = assign({
-  quote_font_color    : '#258fb8',
-  quote_font_size : '1.7em',
-  link_font_color : '#6e7b8d',
-  link_font_size : '1.0em'
+	quote_font_color    : '#258fb8',
+	quote_font_size : '1.7em',
+	link_font_color : '#6e7b8d',
+	link_font_size : '1.0em'
 }, hexo.config.tweetableQuote);
 
 nunjucks.configure(__dirname, {watch: false});
@@ -28,7 +28,12 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 
 	let quote = args[0];
 	let author = args[1];
-	const tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({"text":quote+" - "+author,"via":"iamchathu","url":"{{% url %}}"});
+	const tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({
+		"text":quote+" - "+author,
+		"via":"iamchathu",
+		"related" : "iamchathu"
+	});
+	tweetURL = tweetURL + ";url=" + "{{% url %}}";
 
 	const data = {
 		"quote": quote,
@@ -41,12 +46,12 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 	};
 
 	return new Promise(function (resolve, reject) {
-    	nunjucks.render('tweetable-quote.njk', data, function (err, res) {
-      	if (err) {
-       		return reject(err);
-      	}
-      		resolve(res);
-    	});
-  	});
-  
+		nunjucks.render('tweetable-quote.njk', data, function (err, res) {
+			if (err) {
+				return reject(err);
+			}
+			resolve(res);
+		});
+	});
+
 },{async: true});
