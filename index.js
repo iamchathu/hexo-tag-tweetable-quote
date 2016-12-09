@@ -19,7 +19,9 @@ hexo.config.tweetableQuote = assign({
 	quote_font_color    : '#258fb8',
 	quote_font_size : '1.7em',
 	link_font_color : '#6e7b8d',
-	link_font_size : '1.0em'
+	link_font_size : '1.0em',
+	via_twitter_account : '',
+	related_twitter_accounts : ''
 }, hexo.config.tweetableQuote);
 
 nunjucks.configure(__dirname, {watch: false});
@@ -30,10 +32,9 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 	let author = args[1];
 	let tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({
 		"text":quote+" - "+author,
-		"via":"iamchathu",
-		"related" : "iamchathu"
+		"via":hexo.config.tweetableQuote.via_twitter_account,
+		"related" : hexo.config.tweetableQuote.related_twitter_accounts
 	});
-	tweetURL = tweetURL + ";url=" + "{{% url %}}";
 
 	const data = {
 		"quote": quote,
