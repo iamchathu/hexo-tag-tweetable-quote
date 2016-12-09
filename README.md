@@ -14,7 +14,7 @@ Inspired by [RisingStack Blog](https://blog.risingstack.com/node-hero-node-js-au
 
 The same as other Hexo plugins its simply:
 
-```npm install --save hexo-tag-tweetable-quote```
+```npm i -S hexo-tag-tweetable-quote```
 
 In your Hexo project root.
 
