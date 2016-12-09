@@ -37,13 +37,15 @@ tweetableQuote:
   link_font_color  : '#6e7b8d'
   link_font_size   : '1.0em'
   via_twitter_account : 'iamchathu'
-  related_twitter_accounts : 'iamchathu'
+  related_twitter_accounts : 'iamchathu,twitter'
 ```
 
 - **quote_font_color** - Font color of quote. Defaults to `#258fb8`.
 - **quote_font_size** - Font size of the quote. Defaults to `1.7em`.
 - **link_font_color** - Click to tweet link font color. Defaults to `#6e7b8d`.
 - **link_font_size** - Click to tweet link font size. Defaults to `1.0em`.
+- **via_twitter_account** - Add via @twitter handle. Defaults to ``.
+- **related_twitter_accounts** - Add related twitter accounts to show after tweeting. Can add comma separated multiple accounts. Defaults to ``.
 
 The full tag format is as follows:
 
