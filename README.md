@@ -32,12 +32,12 @@ You can configure this plugin in `_config.yml`.
 
 ```yaml
 tweetableQuote:
-  quote_font_color : '#258fb8'
-  quote_font_size  : '1.7em'
-  link_font_color  : '#6e7b8d'
-  link_font_size   : '1.0em'
-  via_twitter_account : 'iamchathu'
-  related_twitter_accounts : 'iamchathu,twitter'
+  quote_font_color : #258fb8
+  quote_font_size  : 1.7em
+  link_font_color  : #6e7b8d
+  link_font_size   : 1.0em
+  via_twitter_account : iamchathu
+  related_twitter_accounts : iamchathu,twitter
 ```
 
 - **quote_font_color** - Font color of quote. Defaults to `#258fb8`.
