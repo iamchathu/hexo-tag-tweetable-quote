@@ -30,6 +30,8 @@ tweetableQuote:
   quote_font_size  : '1.7em'
   link_font_color  : '#6e7b8d'
   link_font_size   : '1.0em'
+  via_twitter_account : 'iamchathu'
+  related_twitter_accounts : 'iamchathu'
 ```
 
 - **quote_font_color** - Font color of quote. Defaults to `#258fb8`.
@@ -55,3 +57,7 @@ You can check one of them at [Chathu's Visionaries](http://chathu.me/about/)
 * [landscape](https://github.com/hexojs/hexo-theme-landscape)
 
 * [icarus](https://github.com/ppoffice/hexo-theme-icarus)
+
+## Todo
+
+- [ ] Add Post URL to tweet [(Issue : Accessing Post/Page URL inside plugin)](https://github.com/hexojs/hexo/issues/2305)
