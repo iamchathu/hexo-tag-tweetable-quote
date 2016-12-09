@@ -2,6 +2,12 @@
 
 Click to Tweet / Tweetable quotes for [Hexo](https://hexo.io)
 
+[![npm](https://img.shields.io/npm/v/hexo-tag-tweetable-quote.svg)](https://www.npmjs.com/package/hexo-tag-tweetable-quote)
+[![Known Vulnerabilities](https://snyk.io/test/github/iamchathu/hexo-tag-tweetable-quote/badge.svg)](https://snyk.io/test/github/iamchathu/hexo-tag-tweetable-quote)
+[![Build Status](https://travis-ci.org/iamchathu/hexo-tag-tweetable-quote.svg?branch=master)](https://travis-ci.org/iamchathu/hexo-tag-tweetable-quote)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iamchathu/hexo-tag-tweetable-quote/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/iamchathu/hexo-tag-tweetable-quote.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+
 # About
 
 This is a [Hexo](https://hexo.io) tag plugin for including a tweetable quote into your pages/posts. Example of what they can look like is attached below:
