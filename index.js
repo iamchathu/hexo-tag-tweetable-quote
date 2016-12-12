@@ -43,7 +43,7 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 		"quote_font_color":hexo.config.tweetableQuote.quote_font_color,
 		"quote_font_size":hexo.config.tweetableQuote.quote_font_size,
 		"link_font_size":hexo.config.tweetableQuote.link_font_size,
-		"link_font_color":hexo.config.tweetableQuote.link_font_color,
+		"link_font_color":hexo.config.tweetableQuote.link_font_color
 	};
 
 	return new Promise(function (resolve, reject) {
