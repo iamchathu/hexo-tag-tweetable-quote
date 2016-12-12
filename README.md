@@ -7,6 +7,7 @@ Click to Tweet / Tweetable quotes for [Hexo](https://hexo.io)
 [![Build Status](https://travis-ci.org/iamchathu/hexo-tag-tweetable-quote.svg?branch=master)](https://travis-ci.org/iamchathu/hexo-tag-tweetable-quote)
 [![Dependency Status](https://gemnasium.com/badges/github.com/iamchathu/hexo-tag-tweetable-quote.svg)](https://gemnasium.com/github.com/iamchathu/hexo-tag-tweetable-quote)
 [![Code Climate](https://codeclimate.com/github/iamchathu/hexo-tag-tweetable-quote/badges/gpa.svg)](https://codeclimate.com/github/iamchathu/hexo-tag-tweetable-quote)
+[![bitHound Overall Score](https://www.bithound.io/github/iamchathu/hexo-tag-tweetable-quote/badges/score.svg)](https://www.bithound.io/github/iamchathu/hexo-tag-tweetable-quote)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iamchathu/hexo-tag-tweetable-quote/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/iamchathu/hexo-tag-tweetable-quote.svg?style=social)](https://twitter.com/intent/tweet?text=Tweetable+Quotes+plugin+for+%40hexojs&url=https%3A%2F%2Fgithub.com%2Fiamchathu%2Fhexo-tag-tweetable-quote)
 
