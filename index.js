@@ -30,11 +30,21 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 
 	let quote = args[0];
 	let author = args[1];
-	let tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify({
-		"text":quote+" - "+author,
-		"via":hexo.config.tweetableQuote.via_twitter_account,
-		"related" : hexo.config.tweetableQuote.related_twitter_accounts
-	});
+	let hashtags = args[2];
+
+	let URLData = {};
+	URLData.text = quote + " - " + author;
+	if(hexo.config.tweetableQuote.via_twitter_account){
+		URLData.via = hexo.config.tweetableQuote.via_twitter_account;
+	}
+	if(hexo.config.tweetableQuote.related_twitter_accounts){
+		URLData.related = hexo.config.tweetableQuote.related_twitter_accounts;
+	}
+	if(hashtags){
+		URLData.hashtags = hashtags;
+	}
+
+	let tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify(URLData);
 
 	const data = {
 		"quote": quote,
