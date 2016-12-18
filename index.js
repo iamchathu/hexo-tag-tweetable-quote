@@ -6,7 +6,7 @@
  */
 
  // Strict mode.
- 'use strict';
+ "use strict";
 
 // Package modules.
 const assign = require('object-assign');
@@ -16,12 +16,12 @@ const querystring = require('querystring');
 
 // Configuration
 hexo.config.tweetableQuote = assign({
-	quote_font_color    : '#258fb8',
-	quote_font_size : '1.7em',
-	link_font_color : '#6e7b8d',
-	link_font_size : '1.0em',
-	via_twitter_account : '',
-	related_twitter_accounts : ''
+	quote_font_color    : "#258fb8",
+	quote_font_size : "1.7em",
+	link_font_color : "#6e7b8d",
+	link_font_size : "1.0em",
+	via_twitter_account : "",
+	related_twitter_accounts : ""
 }, hexo.config.tweetableQuote);
 
 nunjucks.configure(__dirname, {watch: false});
@@ -44,7 +44,7 @@ hexo.extend.tag.register('tweetableQuote', function(args) {
 		URLData.hashtags = hashtags;
 	}
 
-	let tweetURL = 'https://twitter.com/intent/tweet?'+querystring.stringify(URLData);
+	let tweetURL = "https://twitter.com/intent/tweet?"+querystring.stringify(URLData);
 
 	const data = {
 		"quote": quote,
