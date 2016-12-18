@@ -53,7 +53,17 @@ tweetableQuote:
 The full tag format is as follows:
 
 ```
-{% tweetableQuote 'quote' 'author' %}
+{% tweetableQuote 'quote' 'author' ['hashtags'] %}
+```
+
+- **quote** - Quote. Defaults to ``.
+- **author** - author name of quote. Defaults to ``.
+- **hashtags** - [**Optional**] Comma separated hastags. Defaults to ``.
+
+**Example:**
+
+```
+{% tweetableQuote 'I am a deeply superficial person.' 'Andy Warhol' 'quote,qod' %}
 ```
 
 
