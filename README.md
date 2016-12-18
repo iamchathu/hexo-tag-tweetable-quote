@@ -1,5 +1,8 @@
 # hexo-tag-tweetable-quote for [Hexo](https://hexo.io)
 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b638099f4ae54d66ad048f7fddb4326c)](https://www.codacy.com/app/imchathu/hexo-tag-tweetable-quote?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=iamchathu/hexo-tag-tweetable-quote&amp;utm_campaign=badger)
+
 Click to Tweet / Tweetable quotes for [Hexo](https://hexo.io)
 
 [![npm](https://img.shields.io/npm/v/hexo-tag-tweetable-quote.svg)](https://www.npmjs.com/package/hexo-tag-tweetable-quote)
