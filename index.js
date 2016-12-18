@@ -9,10 +9,10 @@
  "use strict";
 
 // Package modules.
-const assign = require('object-assign');
-const path = require('path');
-const nunjucks = require('nunjucks');
-const querystring = require('querystring');
+const assign = require("object-assign");
+const path = require("path");
+const nunjucks = require("nunjucks");
+const querystring = require("querystring");
 
 // Configuration
 hexo.config.tweetableQuote = assign({
@@ -26,7 +26,7 @@ hexo.config.tweetableQuote = assign({
 
 nunjucks.configure(__dirname, {watch: false});
 
-hexo.extend.tag.register('tweetableQuote', function(args) {
+hexo.extend.tag.register("tweetableQuote", function(args) {
 
 	let quote = args[0];
 	let author = args[1];
