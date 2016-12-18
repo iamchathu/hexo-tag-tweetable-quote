@@ -43,6 +43,9 @@ hexo.extend.tag.register("tweetableQuote", function(args) {
 	if(hashtags){
 		URLData.hashtags = hashtags;
 	}
+	if(this.permalink){
+		URLData.url = this.permalink;
+	}
 
 	let tweetURL = "https://twitter.com/intent/tweet?"+querystring.stringify(URLData);
 
@@ -57,7 +60,7 @@ hexo.extend.tag.register("tweetableQuote", function(args) {
 	};
 
 	return new Promise(function (resolve, reject) {
-		nunjucks.render('tweetable-quote.njk', data, function (err, res) {
+		nunjucks.render("tweetable-quote.njk", data, function (err, res) {
 			if (err) {
 				return reject(err);
 			}
