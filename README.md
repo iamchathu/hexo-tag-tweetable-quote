@@ -16,7 +16,7 @@ Click to Tweet / Tweetable quotes for [Hexo](https://hexo.io)
 
 # About
 
-This is a [Hexo](https://hexo.io) tag plugin for including a tweetable quote into your pages/posts. Example of what they can look like is attached below:
+This is a [Hexo](https://hexo.io) tag plugin for including a tweetable quote into your pages/posts with link to post. Example of what they can look like is attached below:
 
 ![](https://raw.githubusercontent.com/iamchathu/hexo-tag-tweetable-quote/master/screens/preview.png)
 
@@ -84,4 +84,4 @@ You can check one of them at [Chathu's Visionaries](http://chathu.me/about/)
 
 ## Todo
 
-- [ ] Add Post URL to tweet [(Issue : Accessing Post/Page URL inside plugin)](https://github.com/hexojs/hexo/issues/2305)
+- [X] Add Post URL to tweet [(Issue : Accessing Post/Page URL inside plugin)](https://github.com/hexojs/hexo/issues/2305)
