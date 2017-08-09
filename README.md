@@ -76,6 +76,8 @@ I normally add Tweetable quote to my blog posts.
 
 You can check one of them at [Chathu's Visionaries](http://chathu.me/about/)
 
+If you use this plugin on your site please be kind enough to put it in [wiki](https://github.com/iamchathu/hexo-tag-tweetable-quote/wiki)
+
 ## Tested themes
 
 * [landscape](https://github.com/hexojs/hexo-theme-landscape)
