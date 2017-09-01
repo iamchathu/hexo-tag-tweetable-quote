@@ -10,6 +10,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b638099f4ae54d66ad048f7fddb4326c)](https://www.codacy.com/app/imchathu/hexo-tag-tweetable-quote?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=iamchathu/hexo-tag-tweetable-quote&amp;utm_campaign=badger)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iamchathu/hexo-tag-tweetable-quote/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/iamchathu/hexo-tag-tweetable-quote.svg?style=social)](https://twitter.com/intent/tweet?text=Tweetable+Quotes+plugin+for+%40hexojs&url=https%3A%2F%2Fgithub.com%2Fiamchathu%2Fhexo-tag-tweetable-quote)
+[![NSP Status](https://nodesecurity.io/orgs/iamchathu/projects/a3fc1244-d537-4d5a-b6e2-8c424913b298/badge)](https://nodesecurity.io/orgs/iamchathu/projects/a3fc1244-d537-4d5a-b6e2-8c424913b298)
 
 
 Click to Tweet / Tweetable quotes for [Hexo](https://hexo.io)
