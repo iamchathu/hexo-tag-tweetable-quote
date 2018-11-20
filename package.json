@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-tweetable-quote",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hexo tag plugin to add tweetable qoutes to posts and pages",
   "main": "index.js",
   "scripts": {
