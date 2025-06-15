@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/iamchathu/hexo-tag-tweetable-quote#readme",
   "dependencies": {
-    "nunjucks": "^3.1.4",
+    "nunjucks": "^3.2.1",
     "object-assign": "^4.1.0"
   }
 }
